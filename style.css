@@ -1,0 +1,83 @@
+@font-face {
+  font-family: poppins;
+  src: url(Fonts/Poppins-Regular.ttf);
+}
+body {
+  background: rgba(2, 81, 228, 0.933);
+  font-family: poppins;
+  color: white;
+}
+
+.container {
+  max-width: 1110px;
+  padding: 30px 0;
+  margin: auto;
+}
+.container nav {
+  display: flex;
+  justify-content: space-between;
+}
+.container nav ul {
+  display: flex;
+  list-style-type: none;
+}
+.container nav ul .link {
+  color: white;
+  padding-left: 1rem;
+  text-decoration: none;
+}
+.container nav ul .link:hover {
+  font-weight: bold;
+}
+.container section {
+  display: flex;
+  justify-content: space-between;
+}
+.container .half1 {
+  margin-top: 7rem;
+  padding-right: 5rem;
+}
+.container .half1 h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+  line-height: 4rem;
+  color: white;
+}
+.container .half1 .blue {
+  color: rgb(3, 40, 82);
+  text-transform: capitalize;
+  font-family: poppins;
+  font-weight: bold;
+  background-color: azure;
+  border: 0px;
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.5rem;
+}
+.container .half1 .blue:hover {
+  background-color: #bdffff;
+  transform: scale(0.93);
+}
+.container .half1 .orange {
+  color: white;
+  text-transform: capitalize;
+  font-family: poppins;
+  font-weight: bold;
+  background-color: orangered;
+  border: 0px;
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.5rem;
+}
+.container .half1 .orange:hover {
+  background-color: #eb3f00;
+  transform: scale(0.93);
+}
+.container .half2 {
+  background-color: azure;
+  border-radius: 5rem;
+  margin-top: 3rem;
+}
+.container .half2 img {
+  width: 400px;
+  align-items: center;
+  margin-top: 2rem;
+}/*# sourceMappingURL=style.css.map */
