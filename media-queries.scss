@@ -1,0 +1,311 @@
+// Screen 360px
+@media all and (max-width:360px) {
+    .container {
+        text-align: center;
+
+
+        nav {
+            .brand {
+                margin-left: 2rem;
+            }
+
+            .link{
+                display: none;
+            }
+
+            a {
+                margin-top: 0.8rem;
+                margin-right: 2rem;
+            }
+
+        }
+
+        .half1 {
+            padding: 0;
+            margin-top: 10%;
+
+            h1 {
+                padding: 0rem 0rem;
+            }
+
+            p {
+                padding: 0.7rem 1rem;
+            }
+
+
+        }
+
+        .half2 {
+            img {
+                display: none;
+            }
+        }
+
+        .orange {
+            margin-top: 1.5rem;
+        }
+
+
+    }
+}
+
+
+
+//Screen Size 418px
+@media all and (min-width:418px) {
+    .container {
+        text-align: center;
+
+
+
+        nav {
+            .brand {
+                margin-left: 2rem;
+            }
+
+            .link {
+                display: none;
+            }
+
+            a {
+                margin-top: 0.8rem;
+
+                span {
+                    margin-right: 2rem;
+                }
+            }
+
+        }
+
+        .half1 {
+            padding: 0;
+            margin-top: 10%;
+
+            h1 {
+                padding: 0rem 0rem;
+            }
+
+            p {
+                padding: 0.7rem 1rem;
+            }
+
+
+        }
+
+        .half2 {
+            img {
+                display: none;
+            }
+        }
+
+        .orange {
+            margin-top: 2rem;
+        }
+
+
+    }
+}
+
+
+//Screen size 768px
+@media all and (min-width:768px) {
+    .container {
+        text-align: center;
+
+
+        nav {
+            .brand {
+                margin-left: 2rem;
+            }
+
+            .link {
+                display: none;
+            }
+
+            a {
+                margin-top: 0.8rem;
+                margin-right: 2rem;
+            }
+
+        }
+
+        .half1 {
+            padding: 0;
+            margin-top: 10%;
+
+            h1 {
+                padding: 0rem 0rem;
+                margin: 1.5rem 8rem;
+            }
+
+            p {
+                padding: 0.7rem 1rem;
+                margin: 0rem 8rem;
+            }
+
+
+        }
+
+        .half2 {
+            img {
+                display: none;
+            }
+        }
+
+        .orange {
+            margin-top: 1.5rem;
+        }
+    }
+}
+
+
+
+//Screen Size 820px
+@media all and (min-width:820px) {
+    .container {
+        text-align: center;
+
+        .half1 {
+            padding: 0;
+            margin: 10%;
+
+            h1 {
+                padding: 0rem 0rem;
+                margin: 0rem 2rem;
+            }
+
+            p {
+                padding: 0.7rem 1rem;
+                margin: 0rem 4rem;
+            }
+
+
+        }
+
+        .half2 {
+            img {
+                display: none;
+            }
+        }
+
+        nav {
+            .brand {
+                margin-left: 2rem;
+            }
+
+        .link {
+                display: none;
+            }
+
+        }
+    }
+}
+
+
+//Screen Size 1024px
+@media all and (min-width:1024px) {
+    .container {
+        text-align: left;
+
+
+        nav {
+            margin-right: 2rem;
+
+            .brand {
+                margin-left: 2rem;
+            }
+
+
+            .link {
+                display: inline;
+                padding:0;
+                margin: 0;
+            }
+
+            a {
+                display: none;
+            }
+        }
+
+
+
+        .half1 {
+            padding: 0;
+            margin: 10% 2.5%;
+
+            h1 {
+                padding: 0rem 0rem;
+                margin: 0rem 0rem;
+            }
+
+            p {
+                padding: 0.7rem 0rem;
+                margin: 0rem 3.5rem 0rem 0rem;
+
+            }
+
+
+        }
+
+        .half2 {
+            img {
+                display: inline;
+            }
+        }
+
+    }
+}
+
+//Screen Size 1280px
+@media all and (min-width:1280px) {
+    .container {
+        text-align: left;
+
+
+        nav {
+            margin-right: 2rem;
+            
+            .brand {
+                margin-left: 2rem;
+            }
+
+
+            .link {
+                display: inline;
+                padding:0;
+                margin: 0;
+            }
+
+            a {
+                display: none;
+            }
+        }
+
+
+
+        .half1 {
+            padding: 0;
+            margin: 10% 2.5%;
+
+            h1 {
+                padding: 0rem 0rem;
+                margin: 0rem 2rem 0rem 0rem;
+            }
+
+            p {
+                padding: 0.7rem 0rem 0.7rem 0rem;
+                margin: 0rem 3.5rem 0rem 0rem;
+
+            }
+
+
+        }
+
+        .half2 {
+            img {
+                display: inline;
+            }
+        }
+
+    }
+}

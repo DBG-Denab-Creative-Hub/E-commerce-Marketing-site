@@ -1,8 +1,8 @@
-
 @font-face {
     font-family: poppins;
     src: url(Fonts/Poppins-Regular.ttf);
 }
+
 $primary-color: rgba(2, 81, 228, 0.933);
 $font-stack: poppins;
 
@@ -31,8 +31,21 @@ body {
                 padding-left: 1rem;
                 text-decoration: none;
             }
-            .link:hover{
+
+            .link:hover {
                 font-weight: bold;
+            }
+        }
+
+        a {
+            color: white;
+            border-color: none;
+
+            span {
+                display: block;
+                width: 22px;
+                height: 0.1px;
+                padding: 0.3rem 0rem 0.01rem 0rem;
             }
         }
     }
@@ -52,50 +65,98 @@ body {
             line-height: 4rem;
             color: white;
         }
-
-        .blue{
-            color: rgb(3, 40, 82);
-            text-transform: capitalize;
-            font-family: $font-stack;
-            font-weight: bold;
-            background-color: azure;
-            border:0px; 
-            border-radius: 0.5rem;
-            padding: 0.2rem 0.5rem;
-
-            &:hover{
-                background-color: darken($color: azure, $amount: 10%);
-                transform: scale(.93);
-            }
-        }
-        .orange{
-            color: white;
-            text-transform: capitalize;
-            font-family: $font-stack;
-            font-weight: bold;
-            background-color: orangered;
-            border:0px; 
-            border-radius: 0.5rem;
-            padding: 0.2rem 0.5rem;
-
-            &:hover{
-                background-color: darken($color: orangered, $amount: 4%);
-                transform: scale(.93);
-            }
-        }
-
     }
 
-    .half2{
-        background-color: azure;
+    .orange {
+        color: white;
+        text-transform: capitalize;
+        font-family: $font-stack;
+        font-size: 1rem;
+        font-weight: bold;
+        background-color: orangered;
+        border: 0px;
         border-radius: 5rem;
-        margin-top: 3rem;
+        padding: 0.5rem 1.5rem;
 
-        
+        &:hover {
+            background-color: darken($color: orangered, $amount: 4%);
+            transform: scale(.93);
+        }
+    }
+
+
+}
+
+.half2 {
+    background-color: azure;
+    border-radius: 5rem;
+    margin-top: 3rem;
+
+
     img {
-       width: 400px;
+        width: 400px;
         align-items: center;
         margin-top: 2rem;
     }
+}
+
+// Sign in Section
+.sign{
+    display: flex;
+    background:#379dd0;
+    justify-content: center;
+    
+    
+    .cover{
+        background-color: white ;
+        color: #032852;
+        margin-top:10%;
+        text-align: center;
+
+        h1{
+            text-align: center;
+            margin:1rem 0rem 0rem 0rem;
+        }
+        hr{
+            color:#032852;
+            border: 2px solid #032852;
+            margin: 0rem 0rem 5rem 0rem;
+        }
+        form{
+            margin: 0rem 1rem;
+            font-weight: bold;
+
+            input[type="email"]{
+                margin-left: 2.45rem;
+            }
+            input[type="password"]{
+                margin-left: 0.35rem;
+            }
+        }
+        button{
+            border-radius: 50px;
+            border: none;
+            margin-top: 2.5rem;
+            padding: 0.2rem 7rem 0.2rem 6.7rem ;
+            background-color:#032852;
+            color:white;
+            font-family: $font-stack;
+            margin-bottom: 3rem;
+            cursor:pointer;
+        }
+
+        .back{
+            text-align: center;
+            color: grey;
+            font-size: 12px;
+            text-decoration: none;
+
+            &:hover{
+                color: lighten($color: grey, $amount: 10%);
+            }
+
+        }
     }
+
+        
 }

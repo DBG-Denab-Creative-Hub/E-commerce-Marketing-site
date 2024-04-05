@@ -29,6 +29,16 @@ body {
 .container nav ul .link:hover {
   font-weight: bold;
 }
+.container nav a {
+  color: white;
+  border-color: none;
+}
+.container nav a span {
+  display: block;
+  width: 22px;
+  height: 0.1px;
+  padding: 0.3rem 0rem 0.01rem 0rem;
+}
 .container section {
   display: flex;
   justify-content: space-between;
@@ -43,41 +53,80 @@ body {
   line-height: 4rem;
   color: white;
 }
-.container .half1 .blue {
-  color: rgb(3, 40, 82);
-  text-transform: capitalize;
-  font-family: poppins;
-  font-weight: bold;
-  background-color: azure;
-  border: 0px;
-  border-radius: 0.5rem;
-  padding: 0.2rem 0.5rem;
-}
-.container .half1 .blue:hover {
-  background-color: #bdffff;
-  transform: scale(0.93);
-}
-.container .half1 .orange {
+.container .orange {
   color: white;
   text-transform: capitalize;
   font-family: poppins;
+  font-size: 1rem;
   font-weight: bold;
   background-color: orangered;
   border: 0px;
-  border-radius: 0.5rem;
-  padding: 0.2rem 0.5rem;
+  border-radius: 5rem;
+  padding: 0.5rem 1.5rem;
 }
-.container .half1 .orange:hover {
+.container .orange:hover {
   background-color: #eb3f00;
   transform: scale(0.93);
 }
-.container .half2 {
+
+.half2 {
   background-color: azure;
   border-radius: 5rem;
   margin-top: 3rem;
 }
-.container .half2 img {
+.half2 img {
   width: 400px;
   align-items: center;
   margin-top: 2rem;
+}
+
+.sign {
+  display: flex;
+  background: #379dd0;
+  justify-content: center;
+}
+.sign .cover {
+  background-color: white;
+  color: #032852;
+  margin-top: 10%;
+  text-align: center;
+}
+.sign .cover h1 {
+  text-align: center;
+  margin: 1rem 0rem 0rem 0rem;
+}
+.sign .cover hr {
+  color: #032852;
+  border: 2px solid #032852;
+  margin: 0rem 0rem 5rem 0rem;
+}
+.sign .cover form {
+  margin: 0rem 1rem;
+  font-weight: bold;
+}
+.sign .cover form input[type=email] {
+  margin-left: 2.45rem;
+}
+.sign .cover form input[type=password] {
+  margin-left: 0.35rem;
+}
+.sign .cover button {
+  border-radius: 50px;
+  border: none;
+  margin-top: 2.5rem;
+  padding: 0.2rem 7rem 0.2rem 6.7rem;
+  background-color: #032852;
+  color: white;
+  font-family: poppins;
+  margin-bottom: 3rem;
+  cursor: pointer;
+}
+.sign .cover .back {
+  text-align: center;
+  color: grey;
+  font-size: 12px;
+  text-decoration: none;
+}
+.sign .cover .back:hover {
+  color: #9a9a9a;
 }/*# sourceMappingURL=style.css.map */
